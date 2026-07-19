@@ -14,7 +14,7 @@ import {
   InputAdornment,
 } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
-import { getProducts } from "../../../Redux/Slices/ProductSlice";
+import { getProducts } from "../../../Redux/Slices/productSlice";
 import api from "../../../api/axiosConfig";
 
 export default function CustomerProducts() {
