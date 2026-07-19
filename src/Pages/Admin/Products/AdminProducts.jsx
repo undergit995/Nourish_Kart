@@ -33,7 +33,7 @@ import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
 import { useDispatch, useSelector } from "react-redux";
-import { getProducts, postProducts } from "../../../Redux/Slices/ProductSlice";
+import { getProducts, postProducts } from "../../../Redux/Slices/productSlice";
 import { useNavigate } from "react-router-dom";
 import { PrimaryButton } from "../../../Components/Common/Buttons";
 import Input from "@mui/material/Input";
