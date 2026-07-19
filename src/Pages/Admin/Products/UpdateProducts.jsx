@@ -31,8 +31,6 @@ import {
 } from "../../../Components/Common/Buttons";
 import { useDispatch, useSelector } from "react-redux";
 import { enqueueSnackbar, SnackbarProvider } from "notistack";
-import { updateProduct, getProducts } from "../../../Redux/Slices/productSlice";
-import axios from "axios";
 import { updateProduct } from "../../../Redux/Slices/productSlice";
 import { useNavigate, useParams } from "react-router-dom";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";

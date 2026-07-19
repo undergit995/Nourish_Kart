@@ -8,7 +8,6 @@ import CardActionArea from "@mui/material/CardActionArea";
 import CardActions from "@mui/material/CardActions";
 import { deleteProducts } from "../../../Redux/Slices/ProductSlice";
 import { enqueueSnackbar, SnackbarProvider } from "notistack";
-import axios from "axios";
 import { PrimaryButton } from "../../../Components/Common/Buttons";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
