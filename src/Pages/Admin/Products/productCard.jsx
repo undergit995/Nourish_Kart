@@ -6,7 +6,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import CardActionArea from "@mui/material/CardActionArea";
 import CardActions from "@mui/material/CardActions";
-import { deleteProducts } from "../../../Redux/Slices/ProductSlice";
+import { deleteProducts } from "../../../Redux/Slices/productSlice";
 import { enqueueSnackbar, SnackbarProvider } from "notistack";
 import { PrimaryButton } from "../../../Components/Common/Buttons";
 import { useDispatch } from "react-redux";
